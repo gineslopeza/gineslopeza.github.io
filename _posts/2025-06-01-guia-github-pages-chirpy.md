@@ -119,7 +119,8 @@ https://usuario.github.io
 
 ---
 
-### 2. `bash tools/init.sh` da error `$'': command not found`
+### 2. `bash tools/init.sh` da error `$'
+': command not found`
 
 💥 **Causa:** Los scripts `.sh` tienen finales de línea `CRLF` (Windows)  
 🛠️ **Solución:** Ejecuta en Git Bash:
