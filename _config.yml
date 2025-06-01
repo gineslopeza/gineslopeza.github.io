@@ -22,7 +22,7 @@ tagline: Proyectos, tutoriales y experimentos técnicos # it will display as the
 description: >- # used by seo meta and the atom feed
   Proyectos, tutoriales y experimentos técnicos.
 
-favicon: /assets/img/favicons/favicon.ico
+favicon: /assets/img/favicon.ico
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
