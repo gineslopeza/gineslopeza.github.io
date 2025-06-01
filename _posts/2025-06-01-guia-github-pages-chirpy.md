@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cómo crear una GitHub Pages con el tema Chirpy: paso a paso, errores comunes y soluciones"
-date: 2024-06-01 12:00:00 +0200
+date: 2025-06-01 21:40:00 +0200
 categories: [guías]
 tags: [github-pages, jekyll, chirpy, errores]
 ---
