@@ -237,8 +237,8 @@ jekyll-archives:
 
 comments:
   provider: utterances
-  utterances:
-    repo: gineslopeza/gineslopeza.github.io
-    issue_term: pathname
-    label: comentario
-    theme: preferred-color-scheme
+  # utterances:
+  #   repo: gineslopeza/gineslopeza.github.io
+  #   issue_term: pathname
+  #   label: comentario
+  #   theme: preferred-color-scheme
