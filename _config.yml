@@ -25,8 +25,6 @@ description: >- # used by seo meta and the atom feed
 favicon:
   icon: /assets/img/favicons/avatar.png
 
-avatar: /assets/img/avatar.png
-
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: ""
@@ -41,7 +39,9 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Ginés López Arribas
+  bio: "Apasionado por la tecnología. Compartiendo ideas, código y curiosidades"
   email: sng_xtv@hotmail.com # change to your email address
+  avatar: /assets/img/avatar.png
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/gineslopeza # change to your Twitter homepage
