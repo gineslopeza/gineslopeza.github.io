@@ -4,6 +4,7 @@ title: "Cómo crear una GitHub Pages con el tema Chirpy: paso a paso, errores co
 date: 2025-06-01 21:40:00 +0200
 categories: [guías]
 tags: [github-pages, jekyll, chirpy, errores]
+comments: true
 ---
 
 Crear un sitio web profesional con **GitHub Pages** y el tema **Chirpy para Jekyll** puede parecer simple al principio, pero es común encontrarse con errores que no están bien documentados. Aquí te dejo una guía completa y práctica para tenerlo todo funcionando.

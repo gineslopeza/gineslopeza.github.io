@@ -234,3 +234,11 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+comments:
+  provider: utterances
+  utterances:
+    repo: gineslopeza/gineslopeza.github.io
+    issue_term: pathname
+    label: comentario
+    theme: preferred-color-scheme
