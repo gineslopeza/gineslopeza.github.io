@@ -2,7 +2,7 @@
 layout: post
 title: "Cómo crear una GitHub Pages con el tema Chirpy: paso a paso, errores comunes y soluciones"
 date: 2025-06-01 21:40:00 +0200
-categories: [guías]
+categories: [Guías]
 tags: [github-pages, jekyll, chirpy, errores]
 comments: true
 ---
@@ -121,6 +121,7 @@ https://usuario.github.io
 ---
 
 ### 2. `bash tools/init.sh` da error `$'
+
 ': command not found`
 
 💥 **Causa:** Los scripts `.sh` tienen finales de línea `CRLF` (Windows)  
