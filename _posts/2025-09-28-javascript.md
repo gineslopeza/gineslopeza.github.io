@@ -2,8 +2,7 @@
 title: "JavaScript: Desde cero"
 description: "JavaScript es el lenguaje que da interactividad a las aplicaciones web y móviles, creando interfaces dinámicas."
 date: 2025-09-28 17:57:22
-categories:
-  [FP, DAM, Programación Multimedia y Dispositivos Móviles, JavaScript]
+categories: [DAM, Programación Multimedia y Dispositivos Móviles, JavaScript]
 tags: [JavaScript, DOM, Eventos]
 comments: true
 ---
