@@ -174,7 +174,8 @@ script_includes:
         replace: ':LICENSE_NAME', _replacement }} {% endif %}
       </div>
 
-      {# include_cached post-sharing.html #}
+      {% if site.data.origin.share and site.data.origin.share.size > 0 %} {%
+      include post-sharing.html %} {% endif %}
     </div>
     <!-- .post-tail-bottom -->
   </div>
