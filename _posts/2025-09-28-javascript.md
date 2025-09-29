@@ -59,6 +59,6 @@ Fue creado en 1995 por Brendan Eich y hoy en día es uno de los pilares del desa
 ## Flujo de Trabajo con JavaScript
 
 1. **Escribir el Script** en un archivo `.js`.
-2. **Vincularlo al HTML** con la etiqueta `&lt;script src="app.js"&gt;&lt;/script&gt;`.
+2. **Vincularlo al HTML** con la etiqueta `<script src="app.js"></script>`.
 3. **Probar en el Navegador** usando la consola de desarrollador.
 4. **Iterar y Mejorar** añadiendo eventos, animaciones y lógica para la aplicación.
