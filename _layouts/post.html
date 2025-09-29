@@ -36,8 +36,8 @@ script_includes:
       default: page.image }}"{% endcapture %} {% capture class
       %}class="preview-img{% if page.image.no_bg %}{{ ' no-bg' }}{% endif %}"{%
       endcapture %} {% capture alt %}alt="{{ page.image.alt | xml_escape |
-      default: "Preview Image" }}"{% endcapture %} {% if page.image.lqip %} {%-
-      capture lqip -%}lqip="{{ page.image.lqip }}"{%- endcapture -%} {% endif %}
+      default: "Preview Image" }}"{% endcapture %} {% if page.image.lqip %}{%-
+      capture lqip -%}lqip="{{ page.image.lqip }}"{%- endcapture -%}{% endif %}
 
       <div class="mt-3 mb-3">
         <img {{ src }} {{ class }} {{ alt }} w="1200" h="630" {{ lqip }} />
@@ -55,7 +55,6 @@ script_includes:
           {% if page.author %} {% assign authors = page.author %} {% elsif
           page.authors %} {% assign authors = page.authors %} {% endif %} {{
           site.data.locales[lang].post.written_by }}
-
           <em>
             {% if authors %} {% for author in authors %} {% if
             site.data.authors[author].url -%}
@@ -64,12 +63,7 @@ script_includes:
             >
             {%- else -%} {{ site.data.authors[author].name }} {%- endif %} {%
             unless forloop.last %}{{ '</em
-          >,
-          <em
-            >' }}{% endunless %} {% endfor %} {% else %}
-            <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>
-            {% endif %}
-          </em>
+          >, <em>' }}{% endunless %} {% endfor %} {% endif %} </em>
         </span>
 
         <div>
