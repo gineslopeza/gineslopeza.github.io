@@ -29,7 +29,7 @@ favicon: /assets/img/favicon.ico
 url: ""
 
 github:
-  username: username # change to your GitHub username
+  username: gineslopeza # change to your GitHub username
 
 twitter:
   username: username # change to your Twitter username
@@ -45,7 +45,7 @@ social:
     # change to your Twitter homepage
     - https://twitter.com/username
     # change to your GitHub homepage
-    - https://github.com/username 
+    - https://github.com/gineslopeza
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username

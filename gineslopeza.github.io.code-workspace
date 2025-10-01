@@ -1,0 +1,30 @@
+{
+  "folders": [
+	{
+		"name": "gineslopeza.github.io",
+		"path": "."
+	}
+],
+  "settings": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "files.associations": {
+      "*.html": "liquid"
+    },
+    "[markdown]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[shellscript]": {
+      "editor.defaultFormatter": "mkhl.shfmt"
+    },
+    "css.validate": false,
+    "scss.validate": false,
+    "less.validate": false,
+    "terminal.integrated.profiles.osx": {
+      "zsh": {
+        "path": "/bin/zsh",
+        "args": ["-l", "-i"]
+      }
+    }
+  }
+}
